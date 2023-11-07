@@ -142,3 +142,11 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'static/img')
 MEDIA_URL = '/img/'
 
 
+# settings.py
+
+# Define the directory where your static files will be collected.
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# Define the directories where your static files are located.
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
